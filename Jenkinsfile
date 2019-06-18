@@ -16,7 +16,7 @@ node {
     
     try{
         stage('checkout') {
-           git 'https://github.com/RazvanSebastian/maven-sample-jenkins.git'
+           git 'https://github.com/RazvanSebastian/DevOps-demo.git'
         }
         
         stage('compiling, testing, packaging'){
